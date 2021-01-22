@@ -1,6 +1,3 @@
-# puzzle_engine
-
-
 # Puzzle Engine - Proyecto desarrollado como examen para SITRACK
 
 

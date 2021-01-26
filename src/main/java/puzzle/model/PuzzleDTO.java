@@ -23,6 +23,7 @@ public class PuzzleDTO {
 	private String parameters;
 	@Lob
 	private String puzzle;
+	@Lob
 	private String solve;
 	private String words;
 

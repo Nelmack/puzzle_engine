@@ -36,8 +36,8 @@ public class PuzzleServiceImpl implements PuzzleService {
 		// TODO Auto-generated method stub
 
 		ArrayList<String> words = new ArrayList<String>();
-		words.add("cinta");
-		words.add("quieto");
+		words.add("krizztel");
+		words.add("manuel");
 		words.add("reina");
 		words.add("carnada");
 		words.add("bufanda");
@@ -53,8 +53,8 @@ public class PuzzleServiceImpl implements PuzzleService {
 		
 		String message = new String();
 		
-		int height =  (int) settings.get("height");
-		int width =  (int) settings.get("width");
+		int height =  Integer.parseInt((String) settings.get("height"));
+		int width =  Integer.parseInt((String) settings.get("width"));
 		
 		if (   height>=15 
 			&& height<=80  
